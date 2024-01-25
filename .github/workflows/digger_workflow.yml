@@ -21,7 +21,7 @@ jobs:
       statuses: write      # required to validate combined PR status
 
     steps:
-      - name: ${{github.event.inputs.id}}
+      - name: 'Workflow ID: ${{github.event.inputs.id}}'
         run: echo run identifier ${{ inputs.id }}
       - uses: actions/checkout@v4
       - name: digger run
