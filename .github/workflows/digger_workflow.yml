@@ -25,7 +25,7 @@ jobs:
         run: echo run identifier ${{ inputs.id }}
       - uses: actions/checkout@v4
       - name: digger run
-        uses: diggerhq/digger@feat/comments-ux-improvments
+        uses: diggerhq/digger@feat/comments-add-workflow-url
         with:
           setup-aws: true
           aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID }}
