@@ -4,8 +4,8 @@ terraform {
       source  = "hashicorp/aws"
       version = "5.32.1"
     }
-  }
     backend "s3" {
+  }
     bucket = "digger-test-comment-summary-2"              # Change if a different S3 bucket name was used for the backend 
     key    = "terraform/state/dev"
     region = "us-east-1"
@@ -38,8 +38,8 @@ resource "aws_security_group" "security_group" {
   vpc_id      = aws_vpc.vpc_network.id
   name_prefix = "terraform-"
   ingress {
-    from_port   = 80
-    to_port     = 80
+    from_port   = 8000
+    to_port     = 8000
     protocol    = "tcp"
     cidr_blocks = ["0.0.0.0/0"]
   }
