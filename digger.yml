@@ -1,13 +1,5 @@
 projects:
 - name: development
   dir: dev
-  workflow: my
 - name: production
   dir: prod
-  workflow: my
-workflows:
-   my:
-      workflow_configuration:
-         on_pull_request_pushed: [digger plan]
-         on_pull_request_closed: [digger unlock]
-         on_commit_to_default: [digger apply]
