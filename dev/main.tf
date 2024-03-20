@@ -4,8 +4,8 @@ terraform {
       source  = "hashicorp/aws"
       version = "5.32.1"
     }
-    backend "s3" {
   }
+    backend "s3" {
     bucket = "digger-test-comment-summary-2"              # Change if a different S3 bucket name was used for the backend 
     key    = "terraform/state/dev"
     region = "us-east-1"
