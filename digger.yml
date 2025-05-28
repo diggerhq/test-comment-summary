@@ -2,6 +2,8 @@ report_terraform_outputs: true
 reporting:
   ai_summary: true
 
+delete_prior_comments: true
+
 projects:
 - name: development
   dir: dev
