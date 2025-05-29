@@ -1,4 +1,4 @@
-report_terraform_outputs: true
+report_terraform_outputs: false
 reporting:
   ai_summary: true
 
