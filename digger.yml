@@ -9,3 +9,70 @@ projects:
   dir: dev
 - name: production
   dir: prod
+- name: production2
+  dir: prod2
+
+- name: production3
+  dir: prod3
+
+- name: production4
+  dir: prod4
+
+- name: production5
+  dir: prod5
+
+- name: production6
+  dir: prod6
+
+- name: production7
+  dir: prod7
+
+- name: production8
+  dir: prod8
+
+- name: production9
+  dir: prod9
+
+- name: production10
+  dir: prod10
+
+- name: production11
+  dir: prod11
+
+- name: production12
+  dir: prod12
+
+- name: production13
+  dir: prod13
+
+- name: production14
+  dir: prod14
+
+- name: production15
+  dir: prod15
+
+- name: production16
+  dir: prod16
+
+- name: production17
+  dir: prod17
+
+- name: production18
+  dir: prod18
+
+- name: production19
+  dir: prod19
+
+- name: production20
+  dir: prod20
+
+
+
+
+
+
+
+
+
+  
+
