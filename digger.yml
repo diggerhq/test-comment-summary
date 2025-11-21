@@ -1,8 +1,8 @@
-report_terraform_outputs: false
-reporting:
-  ai_summary: true
 
-delete_prior_comments: true
+reporting:
+  enable_comments: false
+
+delete_prior_comments: false
 
 projects:
 - name: development
