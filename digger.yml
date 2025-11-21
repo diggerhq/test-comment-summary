@@ -1,6 +1,5 @@
-report_terraform_outputs: true
 reporting:
-  ai_summary: true
+  enable_comments: false
 
 delete_prior_comments: true
 
