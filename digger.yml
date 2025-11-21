@@ -1,6 +1,6 @@
 
 reporting:
-  enable_comments: false
+  comments_enabled: false
 
 delete_prior_comments: false
 
